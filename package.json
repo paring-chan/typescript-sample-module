@@ -13,6 +13,7 @@
     "start": "node dist",
     "dev": "ts-node src",
     "build": "tsc",
-    "test": "ts-node test"
+    "test": "ts-node test",
+    "prepack": "tsc"
   }
 }
